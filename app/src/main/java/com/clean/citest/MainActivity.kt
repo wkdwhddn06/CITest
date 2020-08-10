@@ -9,6 +9,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        textView.text = BuildConfig.DATA
+        textView.text = getString(R.string.text_hello)
     }
 }
